@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "CraftersGG",
+  "short_name": "CraftersGG Minecraft Website",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#21c2c0",
+  "description": "The official website of the Craftersgg Minecraft Network"
+}
