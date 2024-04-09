@@ -1,41 +1,18 @@
-import { component$ } from "@builder.io/qwik";
-import { QwikLogo } from "../icons/qwik";
+import { component$} from "@builder.io/qwik";
 import styles from "./header.module.css";
 
 export default component$(() => {
+
+  const aquaLogoUrl = "https://github.com/g9militantsYT/g9aerospace.in-old/blob/main/assets/images/g9aerospace.png?raw=true";
+
   return (
-    <header class={styles.header}>
+    <header class={`${styles.header} ${styles.animatedBackground}`}>
       <div class={styles.wrapper}>
         <div class={styles.logo}>
-          <a href="/" title="qwik">
-            <QwikLogo height={50} width={143} />
-          </a>
+          <img src={aquaLogoUrl} alt="Aqua Logo" class={styles.animatedLogo} width="100" height="100" />
         </div>
-        <ul>
-          <li>
-            <a
-              href="https://qwik.builder.io/docs/components/overview/"
-              target="_blank"
-            >
-              Docs
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://qwik.builder.io/examples/introduction/hello-world/"
-              target="_blank"
-            >
-              Examples
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://qwik.builder.io/tutorial/welcome/overview/"
-              target="_blank"
-            >
-              Tutorials
-            </a>
-          </li>
+        <ul class={styles.navList}>
+          <li><a href="/">Home</a></li>
         </ul>
       </div>
     </header>
