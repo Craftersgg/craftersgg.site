@@ -57,5 +57,31 @@ export const head: DocumentHead = ({ resolveValue }) => {
   const builderContent = resolveValue(useBuilderContent);
   return {
     title: builderContent?.data?.title,
+    description: builderContent?.data?.description,
+    meta: [
+      { name: "keywords", content: builderContent?.data?.keywords },
+      { name: "author", content: builderContent?.data?.author },
+      { property: "og:image", content: builderContent?.data?.ogImage },
+      { property: "og:image:width", content: builderContent?.data?.ogImageWidth },
+      { property: "og:image:height", content: builderContent?.data?.ogImageHeight },
+      { property: "og:image:alt", content: builderContent?.data?.ogImageAlt },
+      { name: "twitter:image", content: builderContent?.data?.twitterImage },
+      { name: "twitter:image:alt", content: builderContent?.data?.twitterImageAlt },
+      { name: "twitter:card", content: builderContent?.data?.twitterCard },
+      { name: "twitter:site", content: builderContent?.data?.twitterSite },
+      { name: "twitter:creator", content: builderContent?.data?.twitterCreator },
+      { name: "theme-color", content: builderContent?.data?.themeColor },
+      { name: "viewport", content: "width=device-width, initial-scale=1.0" },
+      { name: "robots", content: "index, follow" },
+      { name: "og:title", content: builderContent?.data?.ogTitle },
+      { name: "og:description", content: builderContent?.data?.ogDescription },
+      { name: "og:type", content: builderContent?.data?.ogType },
+      { name: "og:url", content: builderContent?.data?.ogUrl },
+      { name: "og:site_name", content: builderContent?.data?.ogSiteName },
+      { name: "twitter:title", content: builderContent?.data?.twitterTitle },
+      { name: "twitter:description", content: builderContent?.data?.twitterDescription },
+      { name: "twitter:url", content: builderContent?.data?.twitterUrl },
+      { name: "twitter:domain", content: builderContent?.data?.twitterDomain },
+    ],
   };
 };
