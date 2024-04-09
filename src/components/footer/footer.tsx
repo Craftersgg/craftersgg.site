@@ -7,8 +7,8 @@ export default component$(() => {
       <div class={styles.row}>
         <div class={styles.column}>
           <div class={styles.aboutUs}>
-            <h4>About Me</h4>
-            <p>Passionate about aerospace and a coding enthusiast.</p>
+            <h4>About Us</h4>
+            <p>An awesome minecraft server</p>
           </div>
 
           <div class={styles.contact}>
@@ -31,7 +31,7 @@ export default component$(() => {
         <div class={styles.column}>
           <div class={styles.partnerships}>
             <h4>Partnerships</h4>
-            <p>I collaborate with industry leaders to provide the best solutions.</p>
+            <p>We are open to collaborations</p>
             <p>Partnership: <a href="mailto:partnership@g9aerospace.in">partnership@g9aerospace.in</a></p>
 
             {/* Social Media Icons */}
@@ -55,11 +55,11 @@ export default component$(() => {
                 <img src="https://img.icons8.com/?size=256&id=19318&format=png" alt="Youtube" style={{ maxHeight: '30px' }} />
               </a>
 
-              <a href="https://github.com/g9militantsYT" target="_blank">
+              <a href="https://github.com/Craftersgg" target="_blank">
                 <img src="https://img.icons8.com/?size=256&id=52539&format=png" alt="GitHub" style={{ maxHeight: '30px' }} />
               </a>
 
-              <a href="https://discord.gg/gfzDMS7tQD" target="_blank">
+              <a href="https://discord.gg/w5NyCHz3HB" target="_blank">
                 <img src="https://img.icons8.com/?size=256&id=30998&format=png" alt="Discord" style={{ maxHeight: '30px' }} />
               </a>
 
@@ -75,7 +75,7 @@ export default component$(() => {
 
         <div class={styles.copyrightBox}>
           <div class={styles.copyright}>
-            <p>&copy; 2024 G9 Aerospace. All rights reserved.</p>
+            <p>&copy; 2024 CraftersGG. All rights reserved.</p>
           </div>
         </div>
       </div>

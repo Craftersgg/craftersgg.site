@@ -56,15 +56,17 @@
   color: #6098ec;
 }
 
-/* Aqua styling for specific elements */
-.header .animatedBackground {
-  background: linear-gradient(to right, #003366, #006699);
-  padding: 10px; /* Adjusted padding for better spacing */
-  border-radius: 10px; /* Added border-radius for a rounded appearance */
+.header .Logo {
+  border-radius: 50%;
+  transform: scale(1);
+  transition: 80ms ease-in-out;
 }
 
-.header .animatedLogo {
-  filter: brightness(1.2); /* Slightly increased brightness for the logo */
+.header .Logo:hover {
+  transform: scale(1.05);
+  rotate: 3deg;
+  transition: 100ms ease-in-out;
+  filter: brightness(1.1);
 }
 
 /* Responsive Styles */
@@ -88,10 +90,6 @@
 
   .header li {
     margin-bottom: 0;
-  }
-
-  .animatedBackground {
-    padding: 5px; /* Adjusted padding for smaller screens */
   }
 
   /* Optional: Adjust logo animation for smaller screens */

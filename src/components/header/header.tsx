@@ -3,13 +3,13 @@ import styles from "./header.module.css";
 
 export default component$(() => {
 
-  const aquaLogoUrl = "https://github.com/g9militantsYT/g9aerospace.in-old/blob/main/assets/images/g9aerospace.png?raw=true";
+  const craftersggLogoUrl = "https://github.com/Craftersgg/Icons/blob/main/craftersgg.png?raw=true";
 
   return (
-    <header class={`${styles.header} ${styles.animatedBackground}`}>
+    <header class={`${styles.header}`}>
       <div class={styles.wrapper}>
         <div class={styles.logo}>
-          <img src={aquaLogoUrl} alt="Aqua Logo" class={styles.animatedLogo} width="100" height="100" />
+          <img src={craftersggLogoUrl} alt="CraftersGG Logo" class={styles.Logo} width="100" height="100" />
         </div>
         <ul class={styles.navList}>
           <li><a href="/">Home</a></li>
