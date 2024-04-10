@@ -1,6 +1,6 @@
 import type { RegisteredComponent } from "@builder.io/sdk-qwik";
 import Counter from "./counter/counter";
-import MetaTags from "./metatags/metatags";
+
 /**
  * This array is used to integrate custom components within Builder.
  * https://www.builder.io/c/docs/custom-components-intro
@@ -22,18 +22,4 @@ export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
       },
     ],
   },
-  {
-    component: MetaTags,
-    name: "MetaTags",
-    inputs: [
-      { name: 'Description', type: 'text' },
-      { name: 'Author', type: 'text' },
-      { name: 'Keywords', type: 'text' },
-      { name: 'Open Graph Description', type: 'text' },
-      { name: 'Open Graph Image', type: 'url' },
-      { name: 'Twitter Description', type: 'text' },
-      { name: 'Twitter Image', type: 'url' },
-      { name: 'Twitter Card Type', type: 'text' },
-    ],
-  }
 ];
