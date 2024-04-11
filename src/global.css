@@ -15,8 +15,8 @@
 
   --text-color: #ffffff;
   --main-background: #1c224a;
-  --header-background: var(--main-background);
-  --footer-background: #0d0c25;
+  --header-background: linear-gradient(to right, #010c1d, #000000);
+  --footer-background: linear-gradient(to bottom, #162245, #060e22, #132113);
 }
 
 /* SHELL ---------------------------------------- */
@@ -94,12 +94,12 @@ h3 {
 /* TAGS ----------------------------------------- */
 a {
   text-decoration: none;
-  color: var(--qwik-light-blue);
+  color: #006ce9;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: var(--qwik-light-blue);
+  text-decoration: none;
+  color: #4ab9e5;
 }
 
 code {
@@ -111,18 +111,4 @@ code {
 ul {
   margin: 0;
   padding-left: 20px;
-}
-
-/* Custom Builder CSS Class ----------------------------------------- 
-  This is just an example of setting a custom CSS class on a Builder component,
-  then applying styles to it here in the global CSS file.
-*/
-.builder-footer a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-.builder-footer a:hover {
-  color: var(--qwik-light-blue);
-  text-decoration: underline;
 }

@@ -38,23 +38,6 @@ export default component$(() => {
             <h4>Stay Connected</h4>
             <div class={styles.socialIcons}>
 
-              {/* GitHub Sponsorship Button */}
-              <iframe class={styles.sponsor}
-                src="https://github.com/sponsors/g9militantsYT/button"
-                title="Sponsor g9militantsYT"
-                height="32"
-                width="114"
-                style={{ border: '0', borderRadius: '6px' }}>
-              </iframe>
-
-              <a href="https://www.instagram.com/g9aerospace/" target="_blank">
-                <img src="https://img.icons8.com/?size=256&id=Xy10Jcu1L2Su&format=png" alt="Instagram" style={{ maxHeight: '30px' }} />
-              </a>
-
-              <a href="https://www.youtube.com/@G9AEROSPACEYT" target="_blank">
-                <img src="https://img.icons8.com/?size=256&id=19318&format=png" alt="Youtube" style={{ maxHeight: '30px' }} />
-              </a>
-
               <a href="https://github.com/Craftersgg" target="_blank">
                 <img src="https://img.icons8.com/?size=256&id=52539&format=png" alt="GitHub" style={{ maxHeight: '30px' }} />
               </a>
@@ -62,12 +45,6 @@ export default component$(() => {
               <a href="https://discord.gg/w5NyCHz3HB" target="_blank">
                 <img src="https://img.icons8.com/?size=256&id=30998&format=png" alt="Discord" style={{ maxHeight: '30px' }} />
               </a>
-
-              <a href="https://steamcommunity.com/id/g9aerospace/" target="_blank">
-                <img src="https://img.icons8.com/?size=256&id=zNqjI8XKkCv0&format=png" alt="Steam" style={{ maxHeight: '30px' }} />
-              </a>
-
-              <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="g9aerospace" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
             </div>
           </div>
